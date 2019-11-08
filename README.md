@@ -9,7 +9,7 @@ Rasamson hajalalaina steven
      						
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Made for Ruby 2.5.1 Rails 5.2.3
+Version de  Ruby 2.5.1  et Rails 5.2.3
 
     PRESENTATION
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -22,17 +22,15 @@ C'est la v1.2 que vous pourrez voir et créer des événements. Vous pourrez bie
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 You can access to the app online : https://app-titus.herokuapp.com
 
+Active the migrations and run the seed :
+
+$ rails db:create
+$ rails db:migrate
 else you can download it locally :
 
 $ git clone https://github.com/titsu11/Eventbrite
 
 Go to the folder and run $ bundle install
-
-Active the migrations and run the seed :
-
-$ rails db:create
-$ rails db:migrate
-
 
 	RUNNING
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
